@@ -4,7 +4,8 @@
 class MobileSetup < Formula
   desc ""
   homepage "https://github.com/arthurpalves/mobile-setup.git"
-  head "https://github.com/arthurpalves/mobile-setup.git"
+  url "https://github.com/arthurpalves/mobile-setup.git",
+      :tag => "0.0.1", :revision => "92f72652be7504624ec8c8e26a4ed272903df2b2"
 
   # depends_on "cmake" => :build
 
